@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1cbe163d","path":"/docs/laravel/uploud-de-anexo/","title":"Uploud de Anexo","lang":"pt-br","frontmatter":{"sidebar":"auto"},"headers":[],"git":{"updatedTime":1672524260000,"contributors":[{"name":"Maicon Cerutti","email":"dev.cerutti.maicon@gmail.com","commits":2}]},"filePathRelative":"docs/laravel/uploud-de-anexo/README.md"}');export{e as data};

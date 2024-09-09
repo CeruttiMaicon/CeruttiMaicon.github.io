@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-84989846","path":"/docs/lumen/","title":"Lumen","lang":"pt-br","frontmatter":{"sidebar":"auto","title":"Lumen"},"headers":[],"git":{"updatedTime":1642195688000,"contributors":[{"name":"Maicon Cerutti","email":"dev.cerutti.maicon@gmail.com","commits":1}]},"filePathRelative":"docs/lumen/README.md"}');export{t as data};

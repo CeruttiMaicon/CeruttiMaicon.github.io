@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-20417ca0","path":"/docs/laravel/uploud-de-imagem/","title":"Uploud de imagem","lang":"pt-br","frontmatter":{"sidebar":"auto"},"headers":[],"git":{"updatedTime":1672524260000,"contributors":[{"name":"Maicon Cerutti","email":"dev.cerutti.maicon@gmail.com","commits":2}]},"filePathRelative":"docs/laravel/uploud-de-imagem/README.md"}');export{e as data};

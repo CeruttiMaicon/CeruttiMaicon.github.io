@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-339f4bb6","path":"/docs/docker/docker-compose/","title":"Docker-compose Install","lang":"pt-br","frontmatter":{"sidebar":"auto"},"headers":[],"git":{"updatedTime":1672524260000,"contributors":[{"name":"Maicon Cerutti","email":"dev.cerutti.maicon@gmail.com","commits":2}]},"filePathRelative":"docs/docker/docker-compose/README.md"}');export{e as data};
