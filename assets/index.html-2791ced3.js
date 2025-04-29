@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-05ede791","path":"/docs/laravel/","title":"Laravel","lang":"pt-br","frontmatter":{"sidebar":"auto","title":"Laravel"},"headers":[],"git":{"updatedTime":1642195688000,"contributors":[{"name":"Maicon Cerutti","email":"dev.cerutti.maicon@gmail.com","commits":1}]},"filePathRelative":"docs/laravel/README.md"}');export{a as data};
