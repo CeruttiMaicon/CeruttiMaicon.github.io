@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-46c98fb4","path":"/docs/docker/","title":"Docker","lang":"pt-br","frontmatter":{"sidebar":"auto","title":"Docker"},"headers":[],"git":{"updatedTime":1642195688000,"contributors":[{"name":"Maicon Cerutti","email":"dev.cerutti.maicon@gmail.com","commits":1}]},"filePathRelative":"docs/docker/README.md"}');export{t as data};

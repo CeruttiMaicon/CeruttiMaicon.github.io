@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-b6d01760","path":"/docs/amazon/","title":"Amazon","lang":"pt-br","frontmatter":{"sidebar":"auto","title":"Amazon"},"headers":[],"git":{"updatedTime":1642195688000,"contributors":[{"name":"Maicon Cerutti","email":"dev.cerutti.maicon@gmail.com","commits":1}]},"filePathRelative":"docs/amazon/README.md"}');export{t as data};
