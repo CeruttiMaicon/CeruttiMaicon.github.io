@@ -15,5 +15,5 @@ features:
     details: O Lumen é a solução perfeita para criar microsserviços e APIs extremamente rápidas baseados no Laravel. De fato, é uma das micro-estruturas mais rápidas disponíveis. E uma das mais simples a serem implementadas com base nos conhecimentos previos do Laravel e utilizando a linguagem PHP.
   - title: Gostou do que leu?
     details: Para saber mais entre no meu perfil no GitHub. :)
-footer: MIT Licensed | Maicon Cerutti 2019 - 2022
+footer: MIT Licensed | Maicon Cerutti 2019 - 2026
 ---

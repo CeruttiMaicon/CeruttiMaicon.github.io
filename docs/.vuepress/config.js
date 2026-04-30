@@ -1,6 +1,8 @@
+import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 
 export default {
+  bundler: viteBundler(),
   lang: 'pt-br',
   description: "Minhas competências, anotações e documentações :)",
   title: "Maicon Cerutti",
@@ -27,22 +29,22 @@ export default {
       {
         text: 'Documentações',
         children: [
-          '/docs/amazon', 
-          '/docs/docker',
-          '/docs/git',
-          '/docs/laravel',
-          '/docs/linux',
-          '/docs/lumen',
-          '/docs/nvim',
-          '/docs/postgres',
-          '/docs/python',
-          '/docs/sonarqube',
-          '/docs/vue-js',
-          '/docs/vuepress',
-          '/docs/monitores',
-          '/docs/kernel-para-nvme-em-linux',
-          '/docs/cedilha',
-          '/docs/windows',
+          { text: 'Amazon', link: '/docs/amazon/' },
+          { text: 'Docker', link: '/docs/docker/' },
+          { text: 'Git', link: '/docs/git/' },
+          { text: 'Laravel', link: '/docs/laravel/' },
+          { text: 'Linux', link: '/docs/linux/' },
+          { text: 'Lumen', link: '/docs/lumen/' },
+          { text: 'Neovim', link: '/docs/nvim/' },
+          { text: 'Postgres', link: '/docs/postgres/' },
+          { text: 'Python', link: '/docs/python/' },
+          { text: 'SonarQube', link: '/docs/sonarqube/' },
+          { text: 'Vue.js', link: '/docs/vue-js/' },
+          { text: 'VuePress', link: '/docs/vuepress/' },
+          { text: 'Monitores', link: '/docs/monitores/' },
+          { text: 'Kernel para NVMe em Linux', link: '/docs/kernel-para-nvme-em-linux/' },
+          { text: 'Cedilha', link: '/docs/cedilha/' },
+          { text: 'Windows', link: '/docs/windows/' },
         ],
       },
       {
