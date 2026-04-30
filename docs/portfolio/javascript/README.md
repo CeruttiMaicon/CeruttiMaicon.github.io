@@ -17,5 +17,5 @@ features:
     details: O BootstrapVue é um sustema de design de UI com base nos componentes mais atualizados do Bootstrap, que oferece varios componentes prontos para utilização. Possuo experiencia de 6 meses, mais alguns freelancers que tive a oportunidade de trabalhar.
   - title: Gostou do que leu?
     details: Para saber mais entre no meu perfil no GitHub. :)
-footer: MIT Licensed | Maicon Cerutti 2019 - 2022
+footer: MIT Licensed | Maicon Cerutti 2019 - 2026
 ---
