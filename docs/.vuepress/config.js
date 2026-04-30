@@ -1,6 +1,8 @@
+import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 
 export default {
+  bundler: viteBundler(),
   lang: 'pt-br',
   description: "Minhas competências, anotações e documentações :)",
   title: "Maicon Cerutti",
