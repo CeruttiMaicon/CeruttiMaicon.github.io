@@ -22,5 +22,5 @@ features:
   - title: Python
     details: A primeira linguagem de programação ao qual eu tive contato, tenho muito carinho, sempre a utilizo para fins de automação de atividades repetitivas e para criação de atalhos e comandos.
 
-footer: MIT Licensed | Maicon Cerutti 2019 - 2022
+footer: MIT Licensed | Maicon Cerutti 2019 - 2026
 ---
