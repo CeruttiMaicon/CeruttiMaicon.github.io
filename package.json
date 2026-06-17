@@ -20,5 +20,11 @@
   "dependencies": {
     "@vuepress/plugin-search": "2.0.0-rc.128",
     "postcss": "8.5.12"
+  },
+  "pnpm": {
+    "overrides": {
+      "js-yaml": ">=4.2.0",
+      "esbuild": ">=0.28.1"
+    }
   }
 }
