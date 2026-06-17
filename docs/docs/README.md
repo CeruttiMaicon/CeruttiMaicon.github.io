@@ -13,4 +13,4 @@ sidebar: auto
 - [Postgres](/docs/postgres/README.md)
 - [Python](/docs/python/README.md)
 - [Sonarqube](/docs/sonarqube/README.md)
-- [VueJS](/docs/vuejs/README.md)
+- [VueJS](/docs/vue-js/README.md)

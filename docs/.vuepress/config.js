@@ -1,9 +1,13 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default {
   bundler: viteBundler(),
   lang: 'pt-br',
+  locales: {
+    '/': { lang: 'br' },
+  },
   description: "Minhas competências, anotações e documentações :)",
   title: "Maicon Cerutti",
   head: [
@@ -25,6 +29,38 @@ export default {
     logo: "/images/perfil.jpeg",
     darkMode: true,
     searching: true,
+    themePlugins: {
+      backToTop: {
+        locales: { '/': { backToTop: 'Volta ao topo' } },
+      },
+      copyCode: {
+        locales: { '/': { copy: 'Copiar o código', copied: 'Copiado' } },
+      },
+      git: {
+        locales: {
+          '/': {
+            contributors: 'Colaboradores',
+            changelog: 'Log de Alterações',
+            timeOn: 'em',
+            viewChangelog: 'Ver todas as Alterações',
+            latestUpdateAt: 'Atualizado em',
+          },
+        },
+      },
+      hint: {
+        locales: {
+          '/': {
+            important: 'Importante',
+            info: 'Informativo',
+            note: 'Note',
+            tip: 'Dicas',
+            warning: 'Avisos',
+            caution: 'Cuidado',
+            details: 'Detalhe',
+          },
+        },
+      },
+    },
     navbar: [
       {
         text: 'Documentações',
@@ -133,19 +169,15 @@ export default {
     ],
   }),
   plugins: [
-    [
-      '@vuepress/plugin-search',
-      {
-        locales: {
-          '/': {
-            placeholder: 'Search',
-            // allow searching the `tags` frontmatter
-            maxSuggestions: 10,
-            hotKeys: ['s', '/'],
-            isSearchable: (page) => page.path !== '/',
-          }
+    searchPlugin({
+      locales: {
+        '/': {
+          placeholder: 'Pesquisar',
         },
       },
-    ],
+      maxSuggestions: 10,
+      hotKeys: ['s', '/'],
+      isSearchable: (page) => page.path !== '/',
+    }),
   ],
 };
